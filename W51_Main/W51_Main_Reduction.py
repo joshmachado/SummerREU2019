@@ -76,7 +76,7 @@ tclean(vis='2018pipeline_44.ms.contsub',
        scales=[0,3,9],
        mask='4-4_mask_04.mask',
        threshold=0.0001,
-       imsize=[250,250],
+       imsize=[200,200],
        restoringbeam='common',
        niter=50000)
 
@@ -93,6 +93,6 @@ tclean(vis='2018pipeline_55.ms.contsub',
        mask='5-5_mask_04.mask',
        pbmask=0.2,
        threshold=0.0004,
-       imsize=[250,250],
+       imsize=[200,200],
        restoringbeam='common',
        niter=50000)
